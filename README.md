@@ -1,4 +1,6 @@
-# scrapy-sentry-sdk
+# sentry-sdk-scrapy
+(Clone of https://github.com/groupbwt/scrapy-sentry-sdk with updated dependencies)
+
 A Scrapy extension for integration of Sentry SDK to Scrapy projects.
 
 This package provides a Scrapy extension for convenient initialization of Sentry SDK.
@@ -6,7 +8,7 @@ This package provides a Scrapy extension for convenient initialization of Sentry
 ## Installation
 
 ```shell script
-pip install scrapy_sentry_sdk
+pip install sentry_sdk_scrapy
 ```
 
 ## Usage
@@ -26,7 +28,7 @@ SENTRY_CLIENT_OPTIONS = {
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
 EXTENSIONS = {
-    'scrapy_sentry_sdk.extensions.SentryLogging': 1,  # Load SentryLogging extension before others
+    'sentry_sdk_scrapy.extensions.SentryLogging': 1,  # Load SentryLogging extension before others
 }
 ```
 

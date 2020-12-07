@@ -1,18 +1,18 @@
 [tool.poetry]
-name = "scrapy_sentry_sdk"
+name = "sentry_sdk_scrapy"
 version = "0.4.1"
 description = "Scrapy extension for integration of Sentry SDK to Scrapy projects"
 authors = ["KristobalJunta <junta.kristobal@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/groupbwt/scrapy-sentry-sdk/"
+repository = "https://github.com/nouseforacode/scrapy-sentry-sdk/"
 keywords = ["Error reporting", "Monitoring", "Scrapy", "Sentry"]
 classifiers = ["Topic :: Software Development :: Libraries :: Python Modules"]
 
 [tool.poetry.dependencies]
-python = "^3.6"
-sentry-sdk = "^0.19"
-scrapy = "^1.6"
+python = ">=3.6"
+Scrapy = "^2.4.1"
+sentry-sdk = "^0.19.4"
 
 [tool.poetry.dev-dependencies]
 
